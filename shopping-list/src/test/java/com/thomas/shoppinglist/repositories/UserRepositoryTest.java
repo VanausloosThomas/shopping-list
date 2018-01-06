@@ -19,6 +19,7 @@ public class UserRepositoryTest {
 
     @Inject
     private UserRepository userRepository;
+
     @Test
     public void save_whenSavingAUser_thenUserGetsPersisted() {
         User userToPersist = userBuilder()
